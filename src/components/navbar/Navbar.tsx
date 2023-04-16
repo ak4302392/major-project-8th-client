@@ -15,7 +15,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import React, { useEffect, useState } from 'react';
 import { getToken, isUserAuthenticated, logout } from '../auth/authSlice';
 import { useDispatch } from 'react-redux';
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
 import store from '../../app/state';
 import { isOrganizerAuthenticated, organizerLogout } from '../auth/organizerAuthSlice';
 import { AppRoutes } from '../../routing/routes';
